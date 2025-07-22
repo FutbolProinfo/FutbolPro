@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Preparadores Deportivos - Futbol</title>
-    <base href="../">
+    <title>FutbolPro Futbol y pasión</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -107,21 +106,21 @@
     <nav class="fixed w-full bg-black bg-opacity-80 text-white z-50">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
             <div class="text-xl font-bold">Futbol<span class="text-green-500">Pro</span>
-                <p>We take your career to the next level
+                <p>Llevamos tu carrera al siguiente nivel
             </div>
             <div class="hidden md:flex space-x-8">
-                <a href="#inici" class="nav-link">Home</a>
-                <a href="#presentacio" class="nav-link">Presentation</a>
-                <a href="#tactic" class="nav-link">Tactic</a>
-                <a href="#fisic" class="nav-link">Fisic</a>
-                <a href="#serveis" class="nav-link">Services</a>
-                <a href="#contacte" class="nav-link">Contact</a>
+                <a href="#inici" class="nav-link">Inicio</a>
+                <a href="#presentacio" class="nav-link">Presentación</a>
+                <a href="#tactic" class="nav-link">Táctica</a>
+                <a href="#fisic" class="nav-link">Físico</a>
+                <a href="#serveis" class="nav-link">Servicios</a>
+                <a href="#contacte" class="nav-link">Contacto</a>
                 <!-- Contenidor global -->
                 <div class="relative group">
                     <!-- Botó amb globus -->
                     <div class="flex items-center space-x-1 cursor-pointer">
                         <i class="fas fa-globe"></i>
-                        <span>EN</span>
+                        <span>CA</span>
                         <svg class="w-3 h-3 ml-1" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd"
                                 d="M5.23 7.21a.75.75 0 011.06.02L10 11.586l3.71-4.356a.75.75 0 011.14.976l-4.25 5a.75.75 0 01-1.14 0l-4.25-5a.75.75 0 01.02-1.06z"
@@ -132,9 +131,10 @@
                     <!-- Submenú: enganxat sota el botó -->
                     <div class="absolute right-0 top-full mt-0 w-28 bg-white text-black rounded-md shadow-lg z-50
                 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-200">
-                        <a href="./en/index.html" class="block px-4 py-2 hover:bg-gray-200 first:rounded-t-md last:rounded-b-md">English</a>
-                        <a href="index3.html" class="block px-4 py-2 hover:bg-gray-200 first:rounded-t-md last:rounded-b-md">Català</a>
-                        <a href="./es/index.html" class="block px-4 py-2 hover:bg-gray-200 first:rounded-t-md last:rounded-b-md">Castellano</a>
+                        <a href="../index.html" class="block px-4 py-2 hover:bg-gray-200 first:rounded-t-md">Català</a>
+                        <a href="./es/index.html" class="block px-4 py-2 hover:bg-gray-200">Castellano</a>
+                        <a href="./en/index.html"
+                            class="block px-4 py-2 hover:bg-gray-200  last:rounded-b-md">English</a>
                     </div>
                 </div>
 
@@ -147,20 +147,20 @@
             <!-- Menú mòbil -->
             <div id="mobile-menu" class="hidden md:hidden bg-black bg-opacity-90">
                 <div class="px-4 py-2 flex flex-col space-y-3">
-                    <a href="#inici" class="nav-link py-2">Home</a>
-                    <a href="#presentacio" class="nav-link py-2">Presentation</a>
-                    <a href="#tactic" class="nav-link py-2">Tactic</a>
-                    <a href="#fisic" class="nav-link py-2">Fisic</a>
-                    <a href="#serveis" class="nav-link py-2">Services</a>
-                    <a href="#contacte" class="nav-link py-2">Contact</a>
+                    <a href="#inici" class="nav-link py-2">Inicio</a>
+                    <a href="#presentacio" class="nav-link py-2">Presentación</a>
+                    <a href="#tactic" class="nav-link py-2">Táctica</a>
+                    <a href="#fisic" class="nav-link py-2">Físico</a>
+                    <a href="#serveis" class="nav-link py-2">Servicios</a>
+                    <a href="#contacte" class="nav-link py-2">Contacto</a>
                     <!-- Selector d'idioma mòbil -->
                     <div class="pt-2 border-t border-gray-700">
-                        <label class="block mb-1 text-sm text-gray-300">Language</label>
+                        <label class="block mb-1 text-sm text-gray-300">Idioma</label>
                         <select onchange="location = this.value;"
                             class="w-full bg-black border border-gray-600 text-white px-3 py-2 rounded">
-                            <option value="./index.html">Castellano</option>
-                            <option value="../index3.html" >Català</option>
-                            <option value="./en/index.html" selected>English</option>
+                            <option value="../index.html" selected>Català</option>
+                            <option value="./es/index.html">Castellano</option>
+                            <option value="./en/index.html">English</option>
                         </select>
                     </div>
                 </div>
@@ -172,28 +172,30 @@
         <!-- Preparador Tàctic -->
         <div class="half-screen bg-blue-900">
             <video autoplay muted loop class="video-bg">
-                <source src="videos/tactic.mp4" type="video/mp4">
+                <source src="../videos/tactic.mp4" type="video/mp4">
             </video>
             <div class="overlay"></div>
             <div class="content">
-                <h1 class="text-4xl md:text-6xl font-bold mb-4">Tactical Analysis</h1>
-                <p class="text-xl md:text-2xl mb-8">"Interpret the game"</p>
+                <h1 class="text-4xl md:text-6xl font-bold mb-4">Análisis Táctico</h1>
+                <p class="text-xl md:text-2xl mb-8">"Interpreta el juego"</p>
                 <a href="#tactic"
-                    class="px-6 py-3 bg-white text-blue-900 font-bold rounded-full hover:bg-gray-200 transition">More information</a>
+                    class="px-6 py-3 bg-white text-blue-900 font-bold rounded-full hover:bg-gray-200 transition">Mas
+                    información</a>
             </div>
         </div>
 
         <!-- Preparador Físic -->
         <div class="half-screen bg-green-900">
             <video autoplay muted loop class="video-bg">
-                <source src="videos/fitness.mp4" type="video/mp4">
+                <source src="../videos/fitness.mp4" type="video/mp4">
             </video>
             <div class="overlay"></div>
             <div class="content">
-                <h1 class="text-4xl md:text-6xl font-bold mb-4">Physical Trainer</h1>
-                <p class="text-xl md:text-2xl mb-8">"Ready to compete"</p>
+                <h1 class="text-4xl md:text-6xl font-bold mb-4">Preparador Físico</h1>
+                <p class="text-xl md:text-2xl mb-8">"Prepárate para competir"</p>
                 <a href="#fisic"
-                    class="px-6 py-3 bg-white text-green-900 font-bold rounded-full hover:bg-gray-200 transition">More information</a>
+                    class="px-6 py-3 bg-white text-green-900 font-bold rounded-full hover:bg-gray-200 transition">Mas
+                    información</a>
             </div>
         </div>
     </section>
@@ -201,22 +203,19 @@
     <!-- Secció Presentació -->
     <section id="presentacio" class="py-20 bg-white">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Abaut us</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Sobre Nosotros</h2>
 
             <div class="flex flex-col md:flex-row items-center gap-8 mb-16">
                 <div class="md:w-1/2">
                     <!-- <img src="https://images.unsplash.com/photo-1543357480-c60d400e7f89?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
                          alt="Els dos preparadors" class="rounded-lg shadow-xl w-full h-auto"> -->
-                    <img src="img/cracks.jpg" alt="Els dos preparadors" class="rounded-lg shadow-xl w-full h-auto">
+                    <img src="../img/cracks.jpg" alt="Els dos preparadors" class="rounded-lg shadow-xl w-full h-auto">
                 </div>
                 <div class="md:w-1/2">
-                    <h3 class="text-2xl font-bold mb-4">Una visió compartida</h3>
-                    <p class="text-gray-700 mb-4">We are two professionals apassionats pel futbol amb més de 15 anys
-                        d'experiència en l'entrenament d'equips i jugadors d'elit.</p>
-                    <p class="text-gray-700 mb-4">La nostra filosofia es basa en combinar l'excel·lència tàctica amb un
-                        preparació física òptima per portar el rendiment dels jugadors al següent nivell.</p>
-                    <p class="text-gray-700">Treballem junts per oferir un programa complet que abasti totes les
-                        necessitats del futbolista modern.</p>
+                    <h3 class="text-2xl font-bold mb-4">Una visión compartida</h3>
+                    <p class="text-gray-700 mb-4">Somos dos profesionales del sector de fútbol con más de 20 años de experiencia en el entrenamiento integral donde se tiene una visión 		    global sobre los aspectos tácticos, físicos y técnicos dirigidos a equipos y jugadores/as amateurs y/o semiprofesionales.</p>
+                    <p class="text-gray-700 mb-4">Nuestra filosofía se basa en combinar la excelencia táctica con una preparación física óptima para llevar el rendimiento de los jugadores/as al siguiente nivel.</p>
+                    <p class="text-gray-700">Trabajamos juntos para ofrecer un programa completo que pueda abarcar todas las necesidades del equipo y/o del futbolista en un contexto cada vez más exigente.</p>
                 </div>
             </div>
 
@@ -226,11 +225,9 @@
                         <div class="bg-blue-100 p-3 rounded-full mr-4">
                             <i class="fas fa-brain text-blue-600 text-xl"></i>
                         </div>
-                        <h3 class="text-xl font-bold">Anàlsis individual y/o colectivo</h3>
+                        <h3 class="text-xl font-bold">Análisis individual y/o colectivo</h3>
                     </div>
-                    <p class="text-gray-700">Desenvolupem estratègies personalitzades basades en l'anàlisi del rival i
-                        les fortaleses del teu equip. Treballem els sistemes de joc, transicions i situacions
-                        específiques.</p>
+                    <p class="text-gray-700">Analizamos las fortalezas y debilidades en todas las fases del juego tanto del equipo rival como las de tu propio equipo. Queremos que aumentes tu rendimiento en cada partido. Trabajamos todas las fases del juego (Defensivas, Ofensivas, transiciones y situaciones específicas como las ABP) adaptadas a tu contexto.</p>
                 </div>
 
                 <div class="bg-green-50 p-8 rounded-lg">
@@ -240,9 +237,7 @@
                         </div>
                         <h3 class="text-xl font-bold">Preparación Física</h3>
                     </div>
-                    <p class="text-gray-700">Programes d'entrenament personalitzats per millorar resistència, velocitat,
-                        força i agilitat. Inclouem prevenció de lesions i recuperació activa per mantenir els jugadors
-                        al màxim nivell.</p>
+                    <p class="text-gray-700">Programas de entrenamiento personalizados para mejorar el rendimiento atendiendo a las demandas del fútbol actual. Incluimos trabajo individual personalizado y planning grupales para los diferentes momentos de la temporada.</p>
                 </div>
             </div>
         </div>
@@ -252,40 +247,48 @@
     <section id="tactic" class="py-20 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="text-center mb-12">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4">Analista de situacions de joc</h2>
-                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Expert en sistemes de joc, anàlisi tàctic i
-                    desenvolupament estratègic per a equips i jugadors individuals.</p>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Analista de situaciones de juego</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Experto en las diferentes fases del juego.</p>
             </div>
 
             <div class="flex flex-col md:flex-row gap-8 items-center">
                 <div class="md:w-1/2">
                     <div class="bg-white p-6 rounded-lg shadow-lg mb-6">
-                        <h3 class="text-xl font-bold mb-3 text-blue-800">La meva filosofia</h3>
-                        <p class="text-gray-700 mb-4">Crec que el futbol modern requereix una comprensió profunda dels
-                            sistemes de joc i la capacitat d'adaptar-se ràpidament a diferents escenaris competitius.
+                        <h3 class="text-xl font-bold mb-3 text-blue-800">Mi filosofía</h3>
+                        <p class="text-gray-700 mb-4">Creo que el fútbol moderno requiere una comprensión profunda de las diferentes fases del juego y la capacidad de adaptarse rápidamente a distintos escenarios competitivos.
                         </p>
-                        <p class="text-gray-700">El meu objectiu és desenvolupar jugadors intel·ligents que puguin
-                            llegir el joc i prendre decisions efectives sota pressió.</p>
+                        <p class="text-gray-700">Mi objetivo es desarrollar jugadores inteligentes que puedan leer el juego y tomar decisiones rápidas y efectivas bajo presión.</p>
                     </div>
 
                     <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <h3 class="text-xl font-bold mb-3 text-blue-800">Experiència</h3>
+                        <h3 class="text-xl font-bold mb-3 text-blue-800">Experiencia</h3>
                         <ul class="space-y-3">
                             <li class="flex items-start">
                                 <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
-                                <span class="text-gray-700">7 anys com a analista tàctic a 3RFEF</span>
+                                <span class="text-gray-700">Entrenador con mas de 25 años de experiencia</span>
+                            </li <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                            <span class="text-gray-700">7 años cómo a analista táctico en 3ªRFEF</span>
                             </li>
                             <li class="flex items-start">
                                 <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
-                                <span class="text-gray-700">Certificat UEFA Pro</span>
+                                <span class="text-gray-700">Certificado UEFA Pro</span>
                             </li>
                             <li class="flex items-start">
                                 <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
-                                <span class="text-gray-700">Especialista en anàlisi de rivals i equip propi</span>
+                                <span class="text-gray-700">Certificado Objetivo Analista (Dani Pérez)</span>
                             </li>
                             <li class="flex items-start">
                                 <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
-                                <span class="text-gray-700">Entrenador amb més de 25 anys d'experiència</span>
+                                <span class="text-gray-700">Especialista en análisis de rivales y equipo propio</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                                <span class="text-gray-700">Especialista en ABP</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                                <span class="text-gray-700">Curso Metodológico RCDE Academy</span>
                             </li>
                         </ul>
                     </div>
@@ -293,14 +296,15 @@
 
                 <div class="md:w-1/2">
                     <div class="relative rounded-lg overflow-hidden shadow-xl">
-                        <video controls class="w-full">
+                        <!-- <video controls class="w-full">
                             <source src="videos/tactic.mp4" type="video/mp4">
                         </video>
                         <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30">
                             <button class="bg-white bg-opacity-80 rounded-full p-4 hover:bg-opacity-100 transition">
                                 <i class="fas fa-play text-blue-600 text-xl"></i>
-                            </button>
-                        </div>
+                            </button>	
+                        </div> -->
+                        <iframe width="100%" height="315" src="https://youtube.com/embed/TeDlIk_z39Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -311,42 +315,50 @@
     <section id="fisic" class="py-20 bg-white">
         <div class="container mx-auto px-4">
             <div class="text-center mb-12">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4">Preparador Físic</h2>
-                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Especialista en condicionament físic, prevenció de
-                    lesions i optimització del rendiment esportiu.</p>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Preparador Físico</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Especialista en optimización del rendimiento Deportivo
+                    basado en trabajo de fuerza, prevención de
+                    lesiones y adaptabilidad al contexto.</p>
             </div>
 
             <div class="flex flex-col md:flex-row-reverse gap-8 items-center">
                 <div class="md:w-1/2">
                     <div class="bg-white p-6 rounded-lg shadow-lg mb-6">
-                        <h3 class="text-xl font-bold mb-3 text-green-800">La meva filosofia</h3>
-                        <p class="text-gray-700 mb-4">El futbol modern exigeix jugadors més forts, ràpids i resistents.
-                            El meu treball es centra en desenvolupar aquestes qualitats sense descuidar la prevenció de
-                            lesions.</p>
-                        <p class="text-gray-700">Crec en l'entrenament personalitzat, adaptat a les necessitats
-                            específiques de cada jugador i la seva posició al camp.</p>
+                        <h3 class="text-xl font-bold mb-3 text-green-800">Mi filosofía</h3>
+                        <p class="text-gray-700 mb-4">El fútbol actual exige cada vez jugadores más completos. Mi trabajo se centra en potenciar las cualidades innatas y trabajar las descompensaciones sin olvidar la prevención de lesiones.</p>
+                        <p class="text-gray-700">Creo en el entrenamiento personalizado, adaptado a las necesidades específicas de cada jugador, su posición en el campo y la forma de jugar del equipo.</p>
                     </div>
 
                     <div class="bg-white p-6 rounded-lg shadow-lg">
-                        <h3 class="text-xl font-bold mb-3 text-green-800">Experiència</h3>
+                        <h3 class="text-xl font-bold mb-3 text-green-800">Experiencia</h3>
                         <ul class="space-y-3">
                             <li class="flex items-start">
                                 <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
-                                <span class="text-gray-700">8 anys com a preparador físic a equips de 3RFEF</span>
+                                <span class="text-gray-700">8 años como preparador físico en equipos de 3ªRFEF (FutFem), Segunda Catalana y escuelas internacionales</span>
                             </li>
                             <li class="flex items-start">
                                 <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
-                                <span class="text-gray-700">Llicenciat en Ciències de l'Activitat Física i
-                                    l'Esport</span>
+                                <span class="text-gray-700">Graduado en Ciencias de la Actividad Física y
+                                    el Deporte</span>
                             </li>
                             <li class="flex items-start">
                                 <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
-                                <span class="text-gray-700">Especialista en nutrició esportiva</span>
+                                <span class="text-gray-700">Certificado UEFA "A"</span>
+                            </li>
+
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span class="text-gray-700">Certificado en preparación física en futbol femenino
+                                    (FCB)</span>
                             </li>
                             <li class="flex items-start">
                                 <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
-                                <span class="text-gray-700">Certificat en recuperació funcional i readaptació
-                                    esportiva</span>
+                                <span class="text-gray-700">Certificado en entrenamiento de la fuerza (FCB)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <span class="text-gray-700">Prevención de lesiones y mejora del rendimiento (Global
+                                    Performance)</span>
                             </li>
                         </ul>
                     </div>
@@ -354,14 +366,15 @@
 
                 <div class="md:w-1/2">
                     <div class="relative rounded-lg overflow-hidden shadow-xl">
-                        <video controls class="w-full">
+                        <!-- <video controls class="w-full">
                             <source src="videos/fitness.mp4" type="video/mp4">
                         </video>
                         <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30">
                             <button class="bg-white bg-opacity-80 rounded-full p-4 hover:bg-opacity-100 transition">
                                 <i class="fas fa-play text-green-600 text-xl"></i>
                             </button>
-                        </div>
+                        </div> -->
+                        <iframe width="100%" height="315" src="https://youtube.com/embed/1GhKR3hBP3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -372,9 +385,8 @@
     <section id="serveis" class="py-20 bg-gray-50">
         <div class="container mx-auto px-4">
             <div class="text-center mb-12">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4">Els Nostres Serveis</h2>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Oferim programes personalitzats per a equips i
-                    jugadors individuals. Tria el que millor s'adapti a les teves necessitats.</p>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Nuestros Servicios</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Ofrecemos programas personalizados para equipos y/o jugadores. Elige el que mejor se adapte a tus necesidades.</p>
             </div>
 
             <!-- Serveis individuals -->
@@ -385,28 +397,45 @@
                         <div class="bg-blue-100 p-3 rounded-full mr-4">
                             <i class="fas fa-chess-board text-blue-600 text-xl"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-blue-800">Video Anàlisis Tàctic</h3>
+                        <h3 class="text-xl font-bold text-blue-800">Video Análisis Táctico</h3>
                     </div>
-                    <p class="text-gray-700 mb-4">Anàlisi detallada del teu joc i desenvolupament d'estratègies
-                        personalitzades per millorar el rendiment col·lectiu.</p>
+                    <p class="text-gray-700 mb-4">Análisis detallado del juego y desarrollo de estrategias personalizadas para mejorar el rendimiento individual y/o colectivo.</p>
                     <ul class="space-y-2 mb-6">
+
                         <li class="flex items-start">
                             <i class="fas fa-check text-blue-500 mt-1 mr-2 text-sm"></i>
-                            <span class="text-gray-700">Anàlisi de rivals</span>
+                            <span class="text-gray-700">Análisis Individual (Jugador/-a)</span>
                         </li>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-bold text-blue-800">65€/partido</span>
+                        </div>
                         <li class="flex items-start">
                             <i class="fas fa-check text-blue-500 mt-1 mr-2 text-sm"></i>
-                            <span class="text-gray-700">Desenvolupament de sistemes de joc</span>
+                            <span class="text-gray-700">Análisis de rival o equipo propio</span>
                         </li>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-bold text-blue-800">100€/partido</span>
+                        </div>
+
                         <li class="flex items-start">
                             <i class="fas fa-check text-blue-500 mt-1 mr-2 text-sm"></i>
-                            <span class="text-gray-700">Entrenament en situacions específiques</span>
+                            <span class="text-gray-700">Análisis de rival y equipo propio</span>
                         </li>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-bold text-blue-800">175€/partido</span>
+                        </div>
                     </ul>
                     <div class="flex justify-between items-center">
-                        <span class="text-2xl font-bold text-blue-800">120€/sesió</span>
-                        <button class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Més
-                            informació</button>
+                       <button class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition">
+                        <a href="https://wa.me/+34606087676?text=Hola!%20Estoy%20interesado%20en%20contractar%20el%20servicio%20análisis%20táctico"
+                            target="_blank"
+                            class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition">
+
+                            Mas
+                            información
+                        </a>
+                        </button>
+
                     </div>
                 </div>
 
@@ -416,133 +445,161 @@
                         <div class="bg-green-100 p-3 rounded-full mr-4">
                             <i class="fas fa-dumbbell text-green-600 text-xl"></i>
                         </div>
-                        <h3 class="text-xl font-bold text-green-800">Entrenament Físic</h3>
+                        <h3 class="text-xl font-bold text-green-800">Entrenamiento Físico</h3>
                     </div>
-                    <p class="text-gray-700 mb-4">Programa complet per millorar condició física, velocitat, resistència
-                        i prevenció de lesions.</p>
+                    <p class="text-gray-700 mb-4">Programa completo para mejorar tu rendimiento durante la temporada y en períodos no competitivos.</p>
                     <ul class="space-y-2 mb-6">
                         <li class="flex items-start">
                             <i class="fas fa-check text-green-500 mt-1 mr-2 text-sm"></i>
-                            <span class="text-gray-700">Avaluació física inicial</span>
+                            <span class="text-gray-700">Trabajo previo pretemporada (3 semanas)</span>
                         </li>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-bold text-green-800">15€/programación</span>
+                        </div>
+
                         <li class="flex items-start">
                             <i class="fas fa-check text-green-500 mt-1 mr-2 text-sm"></i>
-                            <span class="text-gray-700">Pla d'entrenament personalitzat</span>
+                            <span class="text-gray-700">Entrenamiento personalizado (Mensual) Trabajo de fuerza o preventivo</span>
                         </li>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-bold text-green-800">29€/programación</span>
+                        </div>
+
                         <li class="flex items-start">
                             <i class="fas fa-check text-green-500 mt-1 mr-2 text-sm"></i>
-                            <span class="text-gray-700">Nutrició i recuperació</span>
+                            <span class="text-gray-700">Microciclo (adaptado al momento de la temporada)</span>
                         </li>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-bold text-green-800">20€/programación</span>
+                        </div>
+
                     </ul>
                     <div class="flex justify-between items-center">
-                        <span class="text-2xl font-bold text-green-800">100€/sesió</span>
-                        <button class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition">Més
-                            informació</button>
+                        <button class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition">
+                        <a href="https://wa.me/+34608090500?text=Hola!%20Estoy%20interesado%20en%20contractar%20el%20servicio%20físico"
+                            target="_blank"
+                            class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition">
+
+                            Mas
+                            información
+                        </a>
+                        </button>
                     </div>
                 </div>
             </div>
 
             <!-- Serveis combinats -->
             <div class="text-center mb-8">
-                <h3 class="text-2xl font-bold mb-2">Packs Combinats</h3>
-                <p class="text-gray-600">Millora el teu rendiment amb els nostres programes integrats</p>
+                <h3 class="text-2xl font-bold mb-2">Packs Combinados</h3>
+                <p class="text-gray-600">Mejora tu rendimiento con nuestros programas integrados</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <!-- Pack Bàsic -->
                 <div class="bg-white p-6 rounded-lg shadow-md service-card border border-gray-200">
                     <div class="text-center mb-4">
-                        <h4 class="text-xl font-bold text-gray-800">Pack Bàsic</h4>
+                        <h4 class="text-xl font-bold text-gray-800">Pack Básico</h4>
                         <div class="mt-4">
-                            <span class="text-4xl font-bold text-blue-600">180€</span>
+                            <span class="text-4xl font-bold text-blue-600">275€</span>
                             <span class="text-gray-500">/mes</span>
                         </div>
                     </div>
                     <ul class="space-y-3 mb-6">
                         <li class="flex items-center">
                             <i class="fas fa-check text-blue-500 mr-2"></i>
-                            <span>2 sessions tàctiques al mes</span>
+                            <span>4 análisis individuales jugador/-a al mes</span>
                         </li>
                         <li class="flex items-center">
                             <i class="fas fa-check text-blue-500 mr-2"></i>
-                            <span>2 sessions físiques al mes</span>
+                            <span>Trabajo previo pretemporada (3 semanas)<br> o</span>
                         </li>
                         <li class="flex items-center">
                             <i class="fas fa-check text-blue-500 mr-2"></i>
-                            <span>Avaluació inicial</span>
+                            <span>Entrenamiento personalizado (Mensual) - Trabajo fuerza o Preventivo</span>
                         </li>
                     </ul>
-                    <button
-                        class="w-full py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Contractar</button>
+                    <button class="w-full py-2 bg-blue-600 text-white rounded hover:bg-red-700 transition"> 
+		    <a href="https://wa.me/+34606087676?text=Hola!%20quiero%20contractar%20el%20servicio%20Pack%20Basico"
+                            target="_blank"
+                    
+                        class="w-full block text-center py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
+                        Contractar
+                    </a>
+                    </button>
                 </div>
 
                 <!-- Pack Professional -->
-                <div
-                    class="bg-white p-6 rounded-lg shadow-lg service-card border-2 border-blue-500 transform scale-105">
+                <div class="bg-white p-6 rounded-lg shadow-lg service-card border-2 border-red-500 transform scale-105">
                     <div class="text-center mb-4">
-                        <div class="bg-blue-500 text-white text-xs font-bold px-2 py-1 rounded-full inline-block mb-2">
-                            RECOMANAT</div>
-                        <h4 class="text-xl font-bold text-gray-800">Pack Professional</h4>
+                        <div class="bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full inline-block mb-2">
+                            RECOMENDADO</div>
+                        <h4 class="text-xl font-bold text-gray-800">Pack Profesional</h4>
                         <div class="mt-4">
-                            <span class="text-4xl font-bold text-blue-600">300€</span>
+                            <span class="text-4xl font-bold text-red-600">430€</span>
                             <span class="text-gray-500">/mes</span>
                         </div>
                     </div>
                     <ul class="space-y-3 mb-6">
                         <li class="flex items-center">
                             <i class="fas fa-check text-blue-500 mr-2"></i>
-                            <span>4 sessions tàctiques al mes</span>
+                            <span>4 análisis rival o equipo propio</span>
                         </li>
                         <li class="flex items-center">
                             <i class="fas fa-check text-blue-500 mr-2"></i>
-                            <span>4 sessions físiques al mes</span>
+                            <span>Microciclo adaptado al momento de la temporada</span>
                         </li>
                         <li class="flex items-center">
                             <i class="fas fa-check text-blue-500 mr-2"></i>
-                            <span>Avaluació completa</span>
+                            <span>Plan nutricional</span>
                         </li>
                         <li class="flex items-center">
                             <i class="fas fa-check text-blue-500 mr-2"></i>
-                            <span>Pla nutricional</span>
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-check text-blue-500 mr-2"></i>
-                            <span>Informe mensual de progrés</span>
+                            <span> Y DE REGALO LA PRETEMPORADA DE TU EQUIPO</span>
                         </li>
                     </ul>
-                    <button
-                        class="w-full py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Contractar</button>
+                    <button class="w-full py-2 bg-blue-600 text-white rounded hover:bg-red-700 transition">
+ 		    <a href="https://wa.me/+34606087676?text=Hola!%20quiero%20contractar%20el%20servicio%20Pack%20Profesional"
+                            target="_blank"
+                        class="w-full block text-center py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
+                        Contractar
+                    </a>
+                    </button>
                 </div>
 
                 <!-- Pack Equip -->
                 <div class="bg-white p-6 rounded-lg shadow-md service-card border border-gray-200">
                     <div class="text-center mb-4">
-                        <h4 class="text-xl font-bold text-gray-800">Pack Team</h4>
+                        <h4 class="text-xl font-bold text-gray-800">Pack PRO</h4>
                         <div class="mt-4">
-                            <span class="text-4xl font-bold text-blue-600">500€</span>
+                            <span class="text-4xl font-bold text-blue-600">720€</span>
                             <span class="text-gray-500">/mes</span>
                         </div>
                     </div>
                     <ul class="space-y-3 mb-6">
                         <li class="flex items-center">
                             <i class="fas fa-check text-blue-500 mr-2"></i>
-                            <span>4 sessions tàctiques grupals</span>
+                            <span>4 Análisis equipo Rival</span>
                         </li>
                         <li class="flex items-center">
                             <i class="fas fa-check text-blue-500 mr-2"></i>
-                            <span>4 sessions físiques grupals</span>
+                            <span>4 Análisis equipo Propio</span>
                         </li>
                         <li class="flex items-center">
                             <i class="fas fa-check text-blue-500 mr-2"></i>
-                            <span>2 sessions individuals per jugador</span>
+                            <span>Microciclo adaptado momento temporada</span>
                         </li>
                         <li class="flex items-center">
                             <i class="fas fa-check text-blue-500 mr-2"></i>
-                            <span>Anàlisi de partits</span>
+                            <span>Y DE REGALO LA PRETEMPORADA DE TU EQUIPO</span>
                         </li>
                     </ul>
-                    <button
-                        class="w-full py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Contractar</button>
+                    <button class="w-full py-2 bg-blue-600 text-white rounded hover:bg-red-700 transition">
+ 		    <a href="https://wa.me/+34606087676?text=Hola!%20quiero%20contractar%20el%20servicio%20Pack%20PRO"
+                            target="_blank"
+                        class="w-full block text-center py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
+                        Contractar
+                    </a>
+                    </button>
                 </div>
             </div>
         </div>
@@ -552,9 +609,8 @@
     <section id="contacte" class="py-20 bg-white">
         <div class="container mx-auto px-4">
             <div class="text-center mb-12">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4">Contacta'ns</h2>
-                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Estem aquí per ajudar-te a assolir els teus objectius
-                    esportius. Contacta'ns per més informació.</p>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Contáctanos</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Estamos aquí para ayudarle a alcanzar tus objetivos deportivos. Contáctanos para más información.</p>
             </div>
 
             <div class="flex flex-col md:flex-row gap-8">
@@ -597,7 +653,7 @@
 
                 <div class="md:w-1/2">
                     <div class="bg-gray-50 p-8 rounded-lg h-full">
-                        <h3 class="text-xl font-bold mb-6">Other contact methods</h3>
+                        <h3 class="text-xl font-bold mb-6">Otras formas de contacto</h3>
 
                         <div class="space-y-6">
                             <div class="flex items-start">
@@ -606,31 +662,43 @@
                                 </div>
                                 <div>
                                     <h4 class="font-bold text-gray-800">Email</h4>
-                                    <p class="text-gray-600">info@futbolpro.com</p>
+                                    <p class="text-gray-600">FutbolProinfo@gmail.com</p>
                                 </div>
                             </div>
 
                             <div class="flex items-start">
                                 <div class="bg-green-100 p-3 rounded-full mr-4">
-                                    <i class="fab fa-whatsapp text-green-600"></i>
+                                    <i class="fab fa-whatsapp text-green-600"></i><br>
+                                </div>
+                                <div class="p-3 rounded-full mr-4">
+                                    <img src="../img/foto-marc.jpg" alt="Logo Marc" class="h-24 object-contain" />
                                 </div>
                                 <div>
-                                    <h4 class="font-bold text-gray-800">WhatsApp Marc</h4>
+                                    <h4 class="font-bold text-gray-800">WhatsApp Marc Garrell</h4>
                                     <p class="text-gray-600">+34 606 087 676</p>
-                                    <a href="https://wa.me/34606087676"
-                                        class="inline-block mt-2 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition">
-                                        <i class="fab fa-whatsapp mr-2"></i> Send message
+                                    <a href="https://wa.me/34606087676?text=Hola!%20Te escribo des de la pagina de FutbolPro"
+                                        class="inline-block mt-2 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition"
+                                        target="_blank">
+                                        <i class="fab fa-whatsapp mr-2"></i> Enviar mensaje
                                     </a>
                                 </div>
                             </div>
 
                             <div class="flex items-start">
-                                <div class="bg-blue-100 p-3 rounded-full mr-4">
-                                    <i class="fas fa-phone-alt text-blue-600"></i>
+                                <div class="bg-green-100 p-3 rounded-full mr-4">
+                                    <i class="fab fa-whatsapp text-green-600"></i><br>
+                                </div>
+                                <div class="p-3 rounded-full mr-4">
+                                    <img src="../img/logok.jpg" alt="Logo Kevin" class="h-24 object-contain">
                                 </div>
                                 <div>
-                                    <h4 class="font-bold text-gray-800">Phone</h4>
-                                    <p class="text-gray-600">+34 987 654 321</p>
+                                    <h4 class="font-bold text-gray-800">WhatsApp Kevin Villena</h4>
+                                    <p class="text-gray-600">+34 608 09 05 00</p>
+                                    <a href="https://wa.me/34608090500?text=Hola! Te escribo des de la pagina de FutbolPro"
+                                        class="inline-block mt-2 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition"
+                                        target="_blank">
+                                        <i class="fab fa-whatsapp mr-2"></i> Enviar mensaje
+                                    </a>
                                 </div>
                             </div>
 
@@ -639,8 +707,8 @@
                                     <i class="fas fa-map-marker-alt text-gray-600"></i>
                                 </div>
                                 <div>
-                                    <h4 class="font-bold text-gray-800">Office</h4>
-                                    <p class="text-gray-600">Carrer del Futbol, 23<br>08000 Barcelona</p>
+                                    <h4 class="font-bold text-gray-800">Oficina</h4>
+                                    <p class="text-gray-600">Granollers<br>Vallirana</p>
                                 </div>
                             </div>
                         </div>
@@ -656,7 +724,7 @@
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="mb-6 md:mb-0">
                     <div class="text-2xl font-bold mb-2">Futbol<span class="text-green-500">Pro</span></div>
-                    <p class="text-gray-400">Et volem portar al següent nivell, t'hi atraveixes?</p>
+                    <p class="text-gray-400">¿Te queremos llevar al siguiente nivel, te atreves?</p>
                 </div>
 
                 <div class="flex space-x-6 mb-6 md:mb-0">
@@ -672,18 +740,23 @@
                     <a href="#" class="text-gray-400 hover:text-white transition">
                         <i class="fab fa-linkedin-in text-xl"></i>
                     </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-whatsapp text-xl"></i>
+                    </a>
                 </div>
 
                 <div class="text-gray-400 text-sm">
-                    <p>&copy; 2023 FutbolPro. Tots els drets reservats.</p>
+                    <p>&copy; 2025 FutbolPro. Todos los derechos reservados.</p>
                 </div>
             </div>
+            
         </div>
     </footer>
 
     <!-- Botó flotant de WhatsApp -->
     <a href="https://wa.me/34606087676"
-        class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition z-50">
+        class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition z-50"
+        target="_blank">
         <i class="fab fa-whatsapp text-2xl"></i>
     </a>
 
